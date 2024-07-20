@@ -1,6 +1,6 @@
 ---
 title: Crypto, Ethereum, Liquidity and Block Chain
-date:
+date: 2024-07-20 00:00:00
 description: |
   Crypto, Ethereum, Liquidity and Block Chain
 image:
