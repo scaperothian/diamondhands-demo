@@ -1,6 +1,6 @@
 - name: About
   link: /about/
-- name: Blog
+- name: Knowledge Base
   link: /blog/
 - name: Abritrage Playground
   link: https://prophet.streamlit.app/?ref=blog.streamlit.io
