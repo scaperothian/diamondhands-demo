@@ -1,9 +1,6 @@
-# Frisco
+# Diamondhands Playground
 
-App promotion themed template for Jekyll. Browse through a [live demo](https://brave-submarine.cloudvent.net/).
-Increase the web presence of a App with this configurable theme.
-
-![Frisco template screenshot](images/_screenshot.jpg)
+THis is the source code for the Diamondhands playground built for performing predictions on crypto markets. 
 
 Frisco was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
 
