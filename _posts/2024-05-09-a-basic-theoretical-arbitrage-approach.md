@@ -37,7 +37,7 @@ Specifically in the Ethereum ecosystem, Automatic Market Maker (AMM) Liquidity P
 
 The ingredients for performing arbitrage include some very basic concepts: (1) buy low, (2) sell high. For Liquidity Pools, the idea is implemented through swaps on multiple exchanges (in this case two).
 
-&lt;Figure 1&gt;
+![](/uploads/screenshot-2024-07-26-at-7-12-45-am.png)
 
 Figure 1: (left) Two exchanges over time (Ethereum / US Dollar pair), (right) example of a two exchange arbitrage resulting in $195 of possible arbitrage benefit.
 
