@@ -39,7 +39,7 @@ The ingredients for performing arbitrage include some very basic concepts: (1) b
 
 &lt;Figure 1&gt;
 
-**Figure 1: (left) Two exchanges over time (Ethereum / US Dollar pair), (right) example of a two exchange arbitrage resulting in $195 of possible arbitrage benefit.**
+Figure 1: (left) Two exchanges over time (Ethereum / US Dollar pair), (right) example of a two exchange arbitrage resulting in $195 of possible arbitrage benefit.
 
 &nbsp;
 
@@ -141,9 +141,11 @@ Model error refers to the uncertainty of the predictions of an operationalized m
 
 Slippage refers to the Ethereum concept of price changing after a swap is initiated but prior to finalizing / validating the EThereum block. In Uniswap, this ‘slip’ is guaranteed to be less than 0.5% by default \[12\], but in general, the user (or the user app) can override that to change the range from 0.1 to 5% \[13\]. The model we create can calculate an estimated bound on the transaction based on typical pool conditions (i.e. for WETH-USDC / 0.05% fee tier, the slippage amounts are typically around 0.3%).
 
-&lt;Figure 2&gt;
+&nbsp;
 
-**Figure 2: Slippage Observations for Pool 0 - WETH/USDC 0.05% fee tier, Pool 1 - WETH/USDC 0.3% fee tier. Grey box is the range of 0.5% (default).**
+![](/uploads/screenshot-2024-07-25-at-4-57-13-pm.png)
+
+Figure 2: Slippage Observations for Pool 0 - WETH/USDC 0.05% fee tier, Pool 1 - WETH/USDC 0.3% fee tier. Grey box is the range of 0.5% (default).
 
 &nbsp;
 
