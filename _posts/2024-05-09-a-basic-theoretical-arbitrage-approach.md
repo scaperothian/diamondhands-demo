@@ -7,7 +7,7 @@ description: >-
 image:
 author_staff_member: /staff_members/david
 ---
-# **Introduction**
+### **Introduction**
 
 &nbsp;
 
@@ -15,7 +15,7 @@ This article is meant to provide a reader an intuition and deeper understanding 
 
 &nbsp;
 
-# **Background**
+### **Background**
 
 &nbsp;
 
@@ -31,7 +31,7 @@ Specifically in the Ethereum ecosystem, Automatic Market Maker (AMM) Liquidity P
 
 &nbsp;
 
-# **Basic Principles**
+### **Basic Principles**
 
 &nbsp;
 
@@ -53,7 +53,7 @@ With price observations and fees, we are ready to construct a prediction approac
 
 <br>
 
-# **A Basic Prediction and Minimum Investment Strategy**
+### **A Basic Prediction and Minimum Investment Strategy**
 
 <br>
 
@@ -129,7 +129,7 @@ FG - Gas fees for both pools (based on demand on the network)
 
 &nbsp;
 
-# **Risks**
+### **Risks**
 
 &nbsp;
 
@@ -151,7 +151,7 @@ Slippage refers to the Ethereum concept of price changing after a swap is initia
 
 MEV stands for Maximal Extractable Value. As an intended component of Ethereum, there are techniques for executing the decentralized exchange to generate more money for what is referred to as validators \[10\]. Essentially, MEV actors are able to take your transaction submission prior to finalizing the request and reorder it to benefit themselves (i.e. other terms for these types of actions include back running or front running or sandwich attacks). This has the risk of reducing your own benefit from a swap you have predicted. It may be possible to estimate how much harm could be done from MEV actions (i.e. if the transactions prior to the swap affect the volume of the pool enough, the price change could impact the original arbitrage detection calculus). This risk is not addressed in this article.
 
-# **<br>References**<br>
+### **<br>References**<br>
 
 \[1\] https://uniswap.org/
 
