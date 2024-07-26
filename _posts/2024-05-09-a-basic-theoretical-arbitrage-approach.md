@@ -43,9 +43,7 @@ The ingredients for performing arbitrage include some very basic concepts: (1) b
 
 &nbsp;
 
-After we are able to observe a price discrepancy that could be able to be used for arbitrage, we need to consider the costs to perform the trade we desire. As any financial exchange there are fees \[7\] involved that need to be taken into account. The first fee is referred to as “gas fees”, which is an Ethereum specific term for the cost to run a transaction (i.e. swap in this case)
-
-on the decentralized network. There are many elements to gas fees, but generally, each swap induces a fee (i.e. two fees to track). There is a great deal of interest in predicting gas fees and there are many resources that share data on global fees across a range of Ethereum contracts, etc \[8\]. The second fee considered is the transaction fee (also known as liquidity provider fee), which is a fee based on the percentage of the token being exchanged. In Uniswap v3, there are fee tiers \[9\], which are determined by each exchange and can be one of three values: 0.05%, 0.3%, and 1%.
+After we are able to observe a price discrepancy that could be able to be used for arbitrage, we need to consider the costs to perform the trade we desire. As any financial exchange there are fees \[7\] involved that need to be taken into account. The first fee is referred to as “gas fees”, which is an Ethereum specific term for the cost to run a transaction (i.e. swap in this case) on the decentralized network. There are many elements to gas fees, but generally, each swap induces a fee (i.e. two fees to track). There is a great deal of interest in predicting gas fees and there are many resources that share data on global fees across a range of Ethereum contracts, etc \[8\]. The second fee considered is the transaction fee (also known as liquidity provider fee), which is a fee based on the percentage of the token being exchanged. In Uniswap v3, there are fee tiers \[9\], which are determined by each exchange and can be one of three values: 0.05%, 0.3%, and 1%.
 
 &nbsp;
 
@@ -81,7 +79,7 @@ FG - Gas fees for both pools (based on demand on the network)
 
 &nbsp;
 
-So, how do we create a forecasting algorithm around this idea when the idea is that an investor is going to invest some amount other than the token price itself. So for the modeling, we have decided to use a Regression model to predict a percentage change of the price between Pool 1 and Pool 2. This in reality leads to two forecasting models (one for Gas Fee prediction and one for Percent Change between pools).
+How do we create a forecasting algorithm around this idea when the idea is that an investor is going to invest some amount other than the token price itself?   Our team has decided to use a Regression model to predict a percentage change of the price between Pool 1 and Pool 2. This in reality leads to two forecasting models (one for Gas Fee prediction and one for Percent Change between pools).
 
 &nbsp;
 
@@ -133,7 +131,7 @@ FG - Gas fees for both pools (based on demand on the network)
 
 &nbsp;
 
-So, with this type of endeavor, there are always risks. In this section, three risks in particular will be discussed: (1) Model Error, (2) Slippage, (3) MEV Actors.
+Much like any investment strategy, there are always risks. In this section, three risks in particular will be discussed: (1) Model Error, (2) Slippage, (3) MEV Actors.
 
 &nbsp;
 
