@@ -27,7 +27,7 @@ For the goal of implementing an arbitrage forecasting system, there are many int
 
 &nbsp;
 
-Specifically in the Ethereum ecosystem, Automatic Market Maker (AMM) Liquidity Pools \[6\] allows price changes to be managed through a series of relatively simple controls. These controls
+Specifically in the Ethereum ecosystem, Automatic Market Maker (AMM) Liquidity Pools \[6\] allows price changes to be managed through a series of relatively simple controls.
 
 &nbsp;
 
