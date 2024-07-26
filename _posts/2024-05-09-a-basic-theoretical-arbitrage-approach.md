@@ -105,7 +105,7 @@ FG - Gas fees for both pools (based on demand on the network)
 
 &nbsp;
 
-Now that we have an approach to our detection of arbitrage, we set PA to zero and say that there is a minimum investment amount to overcome gas and transaction fees, so we rearrange things to calculate the minimum investment as:
+With a baseline theory to describe arbitrage, we set PA to zero to attempt to derive the minimum investment amount to overcome gas and transaction fees.  We solve for P0 (referred to below as Pmin) given PA = 0.  Rearranging rearrange the previous equation results in:
 
 &nbsp;
 
