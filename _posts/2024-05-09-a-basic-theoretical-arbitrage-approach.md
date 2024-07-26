@@ -47,7 +47,7 @@ After we are able to observe a price discrepancy that could be able to be used f
 
 &nbsp;
 
-With price observations and fees, we are ready to construct a prediction approach.
+With price observations and fees outlined, next we will construct a basic theoretical approach for detecting arbitrage opportunities.
 
 <br>
 
