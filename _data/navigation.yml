@@ -6,5 +6,5 @@
   link: /search/
 - name: About
   link: /about/
-- name: ''
-  link: ''
+- name: Data Dictionary
+  link: /data_dictionary/
