@@ -3,7 +3,7 @@ title: Data Dictionary
 description: |
   Data Dictionary
 image: /uploads/screenshot-2024-07-25-at-7-39-23-am.png
-layout: default # Use the default layout provided by CloudCannon
+layout: default # Ensure default layout is applied
 ---
 
 <!DOCTYPE html>
@@ -15,20 +15,19 @@ layout: default # Use the default layout provided by CloudCannon
     <style>
         .content-margin {
             margin-top: 3in; /* Adds a 3-inch margin at the top */
+            background: transparent; /* Ensure background is transparent */
         }
     </style>
 </head>
 <body>
     <div class="content-margin">
-        <header>
-            <h1>Title</h1>
-        </header>
-        
         <section>
+            <header>
+                <h1>Title</h1>
+            </header>
+            
             <p id="raw_text">This is some raw text that provides information about the content of this page.</p>
-        </section>
-        
-        <section>
+            
             <label for="options">Choose an option:</label>
             <select id="options">
                 <option value="option1">Option 1</option>
