@@ -1,6 +1,6 @@
 ---
 title: Developing a Dataset
-date: 2024-07-31 00:00:00
+date: 2024-06-28 00:00:00
 description: Discussion on how and why we created our dataset.
 image:
 author_staff_member:
